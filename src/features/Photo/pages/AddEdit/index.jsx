@@ -47,8 +47,6 @@ function AddEditPage(props) {
                     const action = addPhoto(newPhoto);
                     console.log({ action });
                     dispatch(action);
-
-                    return;
                 } else {
                     const action = updatePhoto(values);
                     dispatch(action);
